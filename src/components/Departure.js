@@ -17,8 +17,8 @@ Leave the house temperature set at 75 when you leave
 Cottages: Remove bed linens and towels and put the provided laundry bags and leave them in the lower office area of the house to be laundered
 Dock: Secure the furniture on the dock and raise the swim ladder and secure to keep clean and out of the water 
 Store and secure the canoes 
-Leave the House and Cottages’ Master keys hanging on the wall by the upstairs 
-kitchen and the single house key back in the mailbox outside by the front door. 
+{/* Leave the House and Cottages’ Master keys hanging on the wall by the upstairs 
+kitchen and the single house key back in the mailbox outside by the front door.  */}
 
             </p>
         </div>
