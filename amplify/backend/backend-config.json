@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "murphyslakehouseappe7c22db4": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

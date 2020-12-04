@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-murphyslakehouseapp-dev-161232-authRole",
+      "UnauthRoleArn": "arn:aws:iam::914469634601:role/amplify-murphyslakehouseapp-dev-161232-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::914469634601:role/amplify-murphyslakehouseapp-dev-161232-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-murphyslakehouseapp-dev-161232-deployment",
+      "UnauthRoleName": "amplify-murphyslakehouseapp-dev-161232-unauthRole",
+      "StackName": "amplify-murphyslakehouseapp-dev-161232",
+      "StackId": "arn:aws:cloudformation:us-east-2:914469634601:stack/amplify-murphyslakehouseapp-dev-161232/55abfb20-25fd-11eb-9919-0a96521365a0",
+      "AmplifyAppId": "d3pll8w4x59feh"
+    },
+    "categories": {
+      "auth": {
+        "murphyslakehouseappe7c22db4": {}
+      }
+    }
+  }
+}
