@@ -3,7 +3,7 @@ import React from 'react'
 export default function Accomodations() {
     return (
         <div className="accomodations">
-            <h2>Accomodations Section</h2>
+            <h2>Accomodations</h2>
             <hr/>
             <div className="accomodations-info">
                 <div className="accomo-section accomo-main-house">

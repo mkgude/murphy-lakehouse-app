@@ -3,7 +3,7 @@ import React from 'react'
 export default function Amenities() {
     return (
         <div className="amenities">
-            <h2>Amenities Section</h2>
+            <h2>Amenities</h2>
             <hr/>
             <div className="amenities-info">
                 <div className="amenities-section amenities-house">

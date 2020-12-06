@@ -22,23 +22,25 @@ function Welcome() {
                     <a href="#contact" className="mc-links">Contact</a>
                 </nav>
             </div>
-            
-            <div id="accomodations">
-                <Accomodations />
-            </div>
-            <div id="amenities">
-                <Amenities />
-            </div>
-            <div id="town">
-                <Town />
-            </div>
-            <div id="directions">
-                <Directions />
-            </div>
-            <div id="departure">
-                <Departure/>
+            <div className="content">
+                <div id="accomodations">
+                    <Accomodations />
+                </div>
+                <div id="amenities">
+                    <Amenities />
+                </div>
+                <div id="town">
+                    <Town />
+                </div>
+                <div id="directions">
+                    <Directions />
+                </div>
+                <div id="departure">
+                    <Departure/>
+                </div>
             </div>
             <div id="contact">
+                <h4>Contact</h4>
                 <p>Theresa’s cell (913) 406-5246</p>
                 <p>Mike’s cell (913) 269-5906</p>
             </div>

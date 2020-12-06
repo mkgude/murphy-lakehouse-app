@@ -3,11 +3,11 @@ import React from 'react'
 export default function Directions() {
     return (
         <div className="directions">
-            <h2>Directions Section</h2>
+            <h2>Directions</h2>
             <hr/>
             <div className="directions-info">
                 <div className="directions-section address">
-                    <h3>Address</h3>
+                    <h4>Address</h4>
                     <p>                
                     Murphy Cottages
                     445 House on the Rock Road

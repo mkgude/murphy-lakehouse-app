@@ -3,7 +3,7 @@ import React from 'react'
 export default function Town() {
     return (
         <div className="town">
-            <h2>In Town Section</h2>
+            <h2>In Town</h2>
             <hr/>
             <div className="town-info">
                 <p>
