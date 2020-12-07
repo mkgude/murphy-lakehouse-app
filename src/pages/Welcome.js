@@ -10,7 +10,7 @@ import LakeBackground2 from "../images/Table-Rock-MO-wanderthemap.jpg"
 function Welcome() {
     return (
         <div>
-            <div className="mc-header" style={{ backgroundImage:`url(${LakeBackground})`, backgroundRepeat: "no-repeat" }}>
+            <div className="mc-header" style={{ backgroundImage:`url(${LakeBackground})`, backgroundRepeat: "no-repeat"}}>
                 <h1 className="mc-welcome">Murphy Cottages</h1>
                 <p className="mc-welcome-text">Welcome! This page contains all the information you need to start your planning, during your stay, and for your departure from the property. We hope you enjoy your time at Murphy Cottages!</p>
                 <nav className="mc-nav">
@@ -38,11 +38,12 @@ function Welcome() {
                 <div id="departure">
                     <Departure/>
                 </div>
-            </div>
-            <div id="contact">
+                <div id="contact">
                 <h4>Contact</h4>
+                <p className="contact-info">445 House on the Rock Road, Reeds Spring, MO | cell | email</p>
                 {/* <p>Theresa’s cell (913) 406-5246</p>
                 <p>Mike’s cell (913) 269-5906</p> */}
+                </div>
             </div>
         </div>
     )

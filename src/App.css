@@ -4,11 +4,13 @@
 .App {
   margin: 0;
   padding: 0;
+  background: rgb(252, 250, 238);
+  width: 100%;
 }
 
 .content {
   height: auto;
-  background: rgb(252, 250, 238);
+  width: 100%;
 }
 .mc-header {
   display: flex;
@@ -16,6 +18,7 @@
   justify-content: center;
   align-items: center;
   height: 450px;
+  width: 100%;
 }
 
 .mc-welcome {
@@ -54,7 +57,8 @@ h2 {
   padding-top: 30px;
 }
 
-h3 {
+h3,
+.contact-info {
   text-align: center;
 }
 
@@ -74,12 +78,21 @@ p {
 
 .accomo-section,
 .amenities-section,
-.depart-section {
+.depart-section,
+.directions-section {
   margin: 1em;
 }
 
 .depart-section ul {
   list-style-type: circle;
+}
+
+.address {
+  margin: 10px;
+}
+.contact-info {
+  margin: 0;
+  padding: 20px;
 }
 
 @media screen and (min-width: 640px) {

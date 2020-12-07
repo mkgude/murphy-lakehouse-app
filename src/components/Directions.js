@@ -8,11 +8,14 @@ export default function Directions() {
             <div className="directions-info">
                 <div className="directions-section address">
                     <h4>Address</h4>
-                    <p>                
-                    Murphy Cottages
-                    445 House on the Rock Road
-                    Reeds Spring, MO 65737
-                    </p>
+                    <a href="https://goo.gl/maps/xmGpmuBjZtDxNwmG9" alt="link to google">              
+                        <address className="address">
+                            Murphy Cottages<br />
+                            445 House on the Rock Road<br/ >
+                            Reeds Spring, MO 65737
+                        </address>
+                    </a> 
+                    <iframe className="google-maps" title="google-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6399.630074275177!2d-93.45532876714334!3d36.67894797997372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87cf225017831071%3A0x4bcdc8b8760df776!2s445%20House%20on%20the%20Rock%20Rd%2C%20Reeds%20Spring%2C%20MO%2065737!5e0!3m2!1sen!2sus!4v1607295299939!5m2!1sen!2sus" width="350" height="300" frameBorder="0" allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
                 </div>
                 <div className="directions-section dir-kc-lake">
                     <h4>Directions from Kansas City</h4>
