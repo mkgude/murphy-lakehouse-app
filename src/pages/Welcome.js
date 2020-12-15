@@ -6,6 +6,7 @@ import Directions from "../components/Directions"
 import Town from "../components/Town"
 import LakeBackground from "../images/table-rock2.jpg"
 import LakeBackground2 from "../images/Table-Rock-MO-wanderthemap.jpg"
+import HouseImages from "../components/HouseImages"
 
 function Welcome() {
     return (
@@ -23,6 +24,9 @@ function Welcome() {
                 </nav>
             </div>
             <div className="content">
+                <div id="lake-photos">
+                    <HouseImages/>
+                </div>
                 <div id="accomodations">
                     <Accomodations />
                 </div>
@@ -39,10 +43,10 @@ function Welcome() {
                     <Departure/>
                 </div>
                 <div id="contact">
-                <h4>Contact</h4>
-                <p className="contact-info">445 House on the Rock Road, Reeds Spring, MO | cell | email</p>
-                {/* <p>Theresa’s cell (913) 406-5246</p>
-                <p>Mike’s cell (913) 269-5906</p> */}
+                    <h4>Contact</h4>
+                    <p className="contact-info">445 House on the Rock Road, Reeds Spring, MO | cell | email</p>
+                    {/* <p>Theresa’s cell (913) 406-5246</p>
+                    <p>Mike’s cell (913) 269-5906</p> */}
                 </div>
             </div>
         </div>

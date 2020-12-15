@@ -95,6 +95,17 @@ p {
   padding: 20px;
 }
 
+.lake-photos {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.property-images {
+  width: 28%;
+  border-radius: 15px;
+}
+
 @media screen and (min-width: 640px) {
   .accomodations-info,
   .amenities-info,
