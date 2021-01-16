@@ -5,8 +5,8 @@ import Departure from "../components/Departure"
 import Directions from "../components/Directions"
 import Town from "../components/Town"
 import LakeBackground from "../images/table-rock2.jpg"
-import LakeBackground2 from "../images/Table-Rock-MO-wanderthemap.jpg"
 import HouseImages from "../components/HouseImages"
+import AdditionalImages from "../components/AdditionalImages"
 
 function Welcome() {
     return (
@@ -35,6 +35,9 @@ function Welcome() {
                 </div>
                 <div id="town">
                     <Town />
+                </div>
+                <div id="addtl-images">
+                    <AdditionalImages  />
                 </div>
                 <div id="directions">
                     <Directions />

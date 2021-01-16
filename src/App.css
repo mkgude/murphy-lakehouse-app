@@ -119,6 +119,36 @@ p {
   margin: 5px;
   border-radius: 15px;
 }
+.lake-activity-link {
+  width: 40%;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.addtl-images {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+figcaption {
+  text-align: center;
+  margin: 10px;
+  text-decoration: none;
+}
+figcaption a {
+  text-decoration: none;
+  color: grey;
+}
+
+figcaption a:hover {
+  color: rgb(241, 212, 105);
+  font-weight: bolder;
+}
 @media screen and (min-width: 640px) {
   .accomodations-info,
   .amenities-info,
@@ -138,8 +168,14 @@ p {
     line-height: 1;
     width: 85%;
   }
+  .lake-photos {
+    justify-content: space-evenly;
+  }
   .property-images {
     width: 28%;
-    justify-content: space-between;
+  }
+  .lake-activity-link {
+    width: 28%;
+    justify-content: space-evenly;
   }
 }
