@@ -33,6 +33,11 @@
   font-size: 20px;
   text-align: center;
 }
+.mc-nav {
+  display: flex;
+  flex-flow: row wrap;
+  line-height: 1;
+}
 .mc-links {
   text-decoration: none;
   color: rgb(209, 205, 200);
