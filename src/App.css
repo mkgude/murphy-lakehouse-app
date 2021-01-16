@@ -126,6 +126,7 @@ p {
 }
 .property-images {
   width: 45%;
+  height: auto;
   margin: 5px;
   border-radius: 15px;
 }
