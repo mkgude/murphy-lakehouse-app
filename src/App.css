@@ -6,6 +6,7 @@
   padding: 0;
   background: rgb(252, 250, 238);
   width: 100%;
+  color: #343434;
 }
 
 .content {
@@ -93,13 +94,22 @@ p {
 .directions-section {
   margin: 1em;
 }
-
 .depart-section ul {
   list-style-type: circle;
 }
-
+.address-link {
+  text-decoration: none;
+  color: #343434;
+}
+.address-link:hover {
+  color: rgb(241, 212, 105);
+  font-weight: bolder;
+}
 .address {
   margin: 10px;
+}
+.google-maps {
+  border-radius: 10px;
 }
 .contact-info {
   margin: 0;
