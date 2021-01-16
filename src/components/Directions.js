@@ -8,7 +8,7 @@ export default function Directions() {
             <div className="directions-info">
                 <div className="directions-section address">
                     <h4>Address</h4>
-                    <a class="address-link" href="https://goo.gl/maps/xmGpmuBjZtDxNwmG9" alt="link to google">              
+                    <a className="address-link" href="https://goo.gl/maps/xmGpmuBjZtDxNwmG9" alt="link to google">              
                         <address className="address">
                             Murphy Cottages<br />
                             445 House on the Rock Road<br/ >

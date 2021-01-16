@@ -123,6 +123,7 @@ p {
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  max-height: 400px;
 }
 .property-images {
   width: 45%;
@@ -132,6 +133,7 @@ p {
 }
 .lake-activity-link {
   width: 40%;
+  max-height: 400px;
   margin: 10px;
   display: flex;
   flex-direction: row;
