@@ -51,8 +51,8 @@
   margin: 5px;
 }
 .mc-links:hover {
-  color: rgb(102, 134, 99);
-  border: 2px solid rgba(102, 134, 99, 0.63);
+  color: rgb(238, 219, 149);
+  border: 2px solid rgb(238, 219, 149);
   font-weight: bolder;
 }
 
