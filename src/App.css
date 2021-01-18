@@ -123,17 +123,15 @@ p {
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  max-height: 400px;
 }
 .property-images {
-  width: 45%;
-  max-height: 400px;
+  max-width: 150px;
+  max-height: 150px;
   margin: 5px;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 .lake-activity-link {
-  width: 40%;
-  max-height: 400px;
+  max-width: 150px;
   margin: 10px;
   display: flex;
   flex-direction: row;
@@ -144,8 +142,8 @@ p {
   border-top-right-radius: 10px;
 }
 .addtl-images {
-  width: 100%;
-  height: auto;
+  max-width: 150px;
+  max-height: 150px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -186,10 +184,16 @@ figcaption a:hover {
     justify-content: space-evenly;
   }
   .property-images {
-    width: 28%;
+    max-width: 275px;
+    max-height: 275px;
   }
   .lake-activity-link {
-    width: 28%;
     justify-content: space-evenly;
+    max-width: 275px;
+  }
+  .addtl-images {
+    max-width: 275px;
+    max-height: 275px;
+    width: 275px;
   }
 }
