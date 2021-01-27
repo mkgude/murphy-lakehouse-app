@@ -14,6 +14,7 @@ function Welcome() {
             <div className="mc-header" style={{ backgroundImage:`url(${LakeBackground})`, backgroundRepeat: "no-repeat"}}>
                 <h1 className="mc-welcome">Murphy Cottages</h1>
                 <p className="mc-welcome-text">Welcome! This page contains all the information you need to start your planning, during your stay, and for your departure from the property. We hope you enjoy your time at Murphy Cottages!</p>
+                <hr />
                 <nav className="mc-nav">
                     <a href="#accomodations" className="mc-links">Accomodations</a>
                     <a href="#amenities" className="mc-links">Amenities</a>
