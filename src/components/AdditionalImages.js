@@ -3,6 +3,8 @@ import lakeEight from "../images/map-of-tablerock copy.webp";
 import lakeNine from "../images/silver-dollar-city.jpeg";
 import lakeTen from "../images/boat-rental.jpg";
 import lakeEleven from "../images/branson.jpeg";
+import lakeTwelve from "../images/bigcedarlodge.jpeg";
+import lakeThirteen from "../images/tablerock-golf.jpg";
 
 
 export default function AdditionalImages() {
@@ -24,6 +26,14 @@ export default function AdditionalImages() {
             <figure className="lake-activity-link">
                 <img className="addtl-images" src={lakeEleven} alt="Branson, Missouri"/>
                 <figcaption><a href="https://www.explorebranson.com/">Visit the official Branson, MO webpage</a></figcaption>
+            </figure>
+            <figure className="lake-activity-link">
+                <img className="addtl-images" src={lakeTwelve} alt="Big Cedar Lodge"/>
+                <figcaption><a href="https://bigcedar.com/">Visit the Big Cedar Lodge webpage</a></figcaption>
+            </figure>
+            <figure className="lake-activity-link">
+                <img className="addtl-images" src={lakeThirteen} alt="Table Rock Gold Course"/>
+                <figcaption><a href="https://www.explorebranson.com/golf">Click to find a list of great golf in the area</a></figcaption>
             </figure>
         </div>
     )
