@@ -48,9 +48,7 @@ function Welcome() {
                 </div>
                 <div id="contact">
                     <h4>Contact</h4>
-                    <p className="contact-info">445 House on the Rock Road, Reeds Spring, MO | cell | email</p>
-                    {/* <p>Theresa’s cell (913) 406-5246</p>
-                    <p>Mike’s cell (913) 269-5906</p> */}
+                    <p className="contact-info">445 House on the Rock Road, Reeds Spring, MO | theresa.murphy.ks@gmail.com</p>
                 </div>
             </div>
         </div>
