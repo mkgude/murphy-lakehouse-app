@@ -12,8 +12,8 @@ function Welcome() {
     return (
         <div>
             <div className="mc-header" style={{ backgroundImage:`url(${LakeBackground})`, backgroundRepeat: "no-repeat"}}>
-                <h1 className="mc-welcome">Murphy Cottages</h1>
-                <p className="mc-welcome-text">Welcome! This page contains all the information you need to start your planning, during your stay, and for your departure from the property. We hope you enjoy your time at Murphy Cottages!</p>
+                <h1 className="mc-welcome">Table Rock Cottages</h1>
+                <p className="mc-welcome-text">Welcome to Table Rock Cottages! This property is a wonderful place to stay for family reunions, host intimate weddings, or to get together your best group of friends right on the lake. </p>
                 <hr />
                 <nav className="mc-nav">
                     <a href="#accomodations" className="mc-links">Accomodations</a>
