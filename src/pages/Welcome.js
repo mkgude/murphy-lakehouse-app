@@ -12,7 +12,7 @@ function Welcome() {
     return (
         <div>
             <div className="mc-header" style={{ backgroundImage:`url(${LakeBackground})`, backgroundRepeat: "no-repeat"}}>
-                <h1 className="mc-welcome">Table Rock Cottages</h1>
+                <h1 className="mc-welcome"><span>Table Rock</span> Cottages</h1>
                 <p className="mc-welcome-text">Welcome to Table Rock Cottages! This property is a wonderful place to stay for family reunions, host intimate weddings, or to get together your best group of friends right on the lake. </p>
                 <hr />
                 <nav className="mc-nav">

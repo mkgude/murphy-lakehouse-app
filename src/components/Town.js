@@ -7,7 +7,7 @@ export default function Town() {
             <hr/>
             <div className="town-info">
                 <p>
-                If you are looking for suggestions on boat rentals, water activities or a night on the town, see some of our suggestions below.
+                If you are looking for information on boat rentals, water activities or a night on the town, see some of our suggestions below.
                 </p>
             </div>
         </div>

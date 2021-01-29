@@ -26,11 +26,14 @@
   font-size: 70px;
   color: rgb(238, 219, 149);
   text-align: center;
+  line-height: 1;
+}
+.mc-header span {
+  font-size: 50px;
 }
 
 .mc-welcome-text {
   color: rgb(209, 205, 200);
-  margin: 30px;
   font-size: 20px;
   text-align: center;
 }
@@ -166,6 +169,13 @@ figcaption a:hover {
   font-weight: bolder;
 }
 @media screen and (min-width: 640px) {
+  .mc-welcome span {
+    font-size: 70px;
+  }
+  .mc-welcome-text {
+    margin: 30px;
+    width: 70%;
+  }
   .accomodations-info,
   .amenities-info,
   .directions-info {

@@ -1,14 +1,15 @@
 {
   "name": "murphys-lakehouse-app",
+  "homepage": "https://tablerockcottages.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@aws-amplify/cli": "^4.32.1",
-    "@aws-amplify/ui-react": "^0.2.28",
+    "@aws-amplify/ui-react": "^0.2.34",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.1.2",
     "@testing-library/user-event": "^12.2.2",
-    "aws-amplify": "^3.3.8",
+    "aws-amplify": "^3.3.14",
     "bootstrap": "^4.5.3",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
